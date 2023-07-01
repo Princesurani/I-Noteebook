@@ -10,6 +10,8 @@ const Signup = (props) => {
 
   const onChange = (e) => {
       setDetails({ ...details, [e.target.name]: e.target.value })
+
+      
     }
 
     const handleSubmit= async (e)=>{
